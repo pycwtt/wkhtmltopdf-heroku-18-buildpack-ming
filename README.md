@@ -7,6 +7,7 @@ binary with your environment.
 
 * Buildpack:   `0.1`
 * wkhtmltopdf: `0.12.5-1.bionic_amd64.deb` by default
+* without fonts
 
 ## Usage
 
