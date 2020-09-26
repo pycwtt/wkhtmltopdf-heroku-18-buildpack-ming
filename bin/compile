@@ -24,7 +24,7 @@ WKHTMLTOPDF_BINARIES="$WKHTMLTOPDF_PATH/bin"
 WKHTMLTOPDF_LIBS="$WKHTMLTOPDF_PATH/lib"
 
 BIN_DIR=$(cd $(dirname $0); pwd)
-FONTS_DIR=$(cd "$BIN_DIR/../fonts"; pwd)
+
 
 if [ -f $WKHTMLTOPDF_DEB ]; then
   echo "-----> Using wkhtmltopdf from cache"
