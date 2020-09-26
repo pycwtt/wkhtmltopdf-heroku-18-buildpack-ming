@@ -16,7 +16,7 @@ and `wkhtmltoimage` binaries, and the corresponding library `libwkhtmltox`,
 into the dynos:
 
 ```bash
-$ heroku buildpacks:add https://github.com/chap/wkhtmltopdf-heroku-18-buildpack --index 1
+$ heroku buildpacks:add https://github.com/chap/wkhtmltopdf-heroku-18-buildpack-ming --index 1
 ```
 
 If you want to use a `wkhtmltopdf` version other than the default set
