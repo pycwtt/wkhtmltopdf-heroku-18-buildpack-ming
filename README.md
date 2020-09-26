@@ -38,10 +38,14 @@ buildpack. To do that, run:
 $ heroku plugins:install https://github.com/heroku/heroku-repo.git
 $ heroku repo:purge_cache -a appname
 ```
+### Testing
+heroku run bin/wkhtmltopdf -V
+wkhtmltopdf 0.12.5 (with patched qt)
 
 ### Example
 See an example of a [Rails app using wicked_pdf on heroku-18](https://github.com/chap/wicked-pdf-heroku-18).
-
+create a folder called .fonts in your app root directory and copy all necessary fonts inside.
+'binary' => '/app/bin/wkhtmltopdf',
 
 ### Credits
 
