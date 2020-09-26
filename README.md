@@ -45,8 +45,8 @@ See an example of a [Rails app using wicked_pdf on heroku-18](https://github.com
 
 ### Credits
 
-Most of this code was from the [dscout/wkhtmltopdf-buildpack](https://github.com/dscout/wkhtmltopdf-buildpack).
-Most of this code was from the [chap/wkhtmltopdf-heroku-18-buildpack](https://github.com/chap/wkhtmltopdf-heroku-18-buildpack)
+Most of this code was from the [dscout/wkhtmltopdf-buildpack](https://github.com/dscout/wkhtmltopdf-buildpack), 
+[chap/wkhtmltopdf-heroku-18-buildpack](https://github.com/chap/wkhtmltopdf-heroku-18-buildpack)
 
 [0]: http://devcenter.heroku.com/articles/buildpacks
 [1]: http://wkhtmltopdf.org/
